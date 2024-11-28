@@ -1,2 +1,2 @@
-# azure-ai-cohort-day-2
-Resources for Day 2 of Azure AI Cohort
+# Azure AI Cohort Day 2
+
