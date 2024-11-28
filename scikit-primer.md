@@ -68,9 +68,7 @@ accuracy = accuracy_score(y_test, y_pred)
 print(f'Accuracy: {accuracy * 100:.2f}%')
 ```
 
-# Full Code Example
-[Back to Top](#index)
- 
+# Full Code Example 
 Here’s the complete code for reference:
 ```
 import pandas as pd
