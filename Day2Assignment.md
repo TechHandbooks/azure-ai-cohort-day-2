@@ -7,6 +7,124 @@ The goal of this assignment is to build a machine learning model to classify han
 
 ---
 
+## Prerequisites: Setting Up Python or Anaconda
+
+### Option 1: Installing Python
+
+1. **Download Python**  
+   - Go to the official Python website: [https://www.python.org/downloads/](https://www.python.org/downloads/).  
+   - Download the latest version of Python for your operating system (Windows, macOS, or Linux).  
+   - Ensure you select the version that matches your OS architecture (32-bit or 64-bit).
+
+2. **Install Python**  
+   - Run the downloaded installer.  
+   - During installation, **check the box that says "Add Python to PATH"** before proceeding.  
+   - Select "Customize Installation" if you'd like to choose advanced settings (optional).  
+
+3. **Verify Installation**  
+   - Open a terminal or command prompt.  
+   - Type:  
+     ```bash
+     python --version
+     ```  
+     or  
+     ```bash
+     python3 --version
+     ```  
+     This should display the Python version installed.
+
+4. **Install pip (if not already installed)**  
+   Pip is Python's package manager and usually comes pre-installed. Verify by typing:  
+   ```bash
+   pip --version
+   ```  
+   If not installed, follow the instructions [here](https://pip.pypa.io/en/stable/installation/).
+
+---
+
+### Option 2: Installing Anaconda (Recommended for Beginners)
+
+1. **Download Anaconda**  
+   - Go to [https://www.anaconda.com/](https://www.anaconda.com/).  
+   - Download the Anaconda distribution for your operating system.
+
+2. **Install Anaconda**  
+   - Run the installer.  
+   - Follow the instructions and ensure "Add Anaconda to my PATH environment variable" is checked (optional but recommended for advanced users).  
+
+3. **Verify Installation**  
+   - Open the Anaconda Navigator by searching for it in your system applications.  
+   - Alternatively, open a terminal or Anaconda Prompt and type:  
+     ```bash
+     conda --version
+     ```  
+
+4. **Set Up a Virtual Environment**  
+   - Create an environment for your project:  
+     ```bash
+     conda create --name ai_model python=3.8
+     ```  
+   - Activate the environment:  
+     ```bash
+     conda activate ai_model
+     ```  
+
+---
+
+## Installing Required Libraries
+
+Once Python or Anaconda is installed, install the necessary libraries:
+
+```bash
+pip install scikit-learn matplotlib pandas jupyter
+```
+
+If using Anaconda:
+
+```bash
+conda install scikit-learn matplotlib pandas jupyter
+```
+
+---
+
+## Steps to Push Code to GitHub (Just incase if you are new to GitHub)
+
+1. **Initialize a Git Repository**:
+   - Navigate to your project folder:
+     ```bash
+     cd /path/to/your/project
+     ```
+   - Initialize Git:
+     ```bash
+     git init
+     ```
+
+2. **Add and Commit Files**:
+   - Add all files to the staging area:
+     ```bash
+     git add .
+     ```
+   - Commit your changes:
+     ```bash
+     git commit -m "Initial commit: My First AI Model"
+     ```
+
+3. **Connect to GitHub**:
+   - Create a new repository on GitHub.  
+   - Copy the repository URL and run:
+     ```bash
+     git remote add origin <repository-url>
+     ```
+
+4. **Push Files**:
+   - Push your code to GitHub:
+     ```bash
+     git branch -M main
+     git push -u origin main
+     ```
+
+---
+
 #### **Steps to Complete the Assignment**
 
 1. **Understand the Digits Dataset**
@@ -101,7 +219,7 @@ plt.show()
    - Screenshots of model performance and visualizations (optional).
 
 3. **Share the Repository Link**
-   - Once your work is uploaded, share the repository URL in this Microsoft Form - [Here](https://forms.office.com/r/MwtiC6U7Ju?origin=lprLink)
+   - Once your work is uploaded, share the repository URL with your instructor.URL in this Microsoft Form - [Here](https://forms.office.com/r/MwtiC6U7Ju?origin=lprLink)
 
 ---
 
