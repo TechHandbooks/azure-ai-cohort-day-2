@@ -5,3 +5,5 @@
 - [Assignment Submission](https://forms.office.com/r/MwtiC6U7Ju?origin=lprLink)
 - [Winners]()
 - [Recording]()
+
+[Back to Main Repo](https://github.com/TechHandbooks/azure-ai-cohort)
