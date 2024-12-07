@@ -1,14 +1,32 @@
-### **Day 2 Assignment: Build a Machine Learning Model to Classify Handwritten Digits**
+<!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
+# **Day 2 Assignment: Build a Machine Learning Model to Classify Handwritten Digits**
+## Table of Contents
+   * [**Objective**](#objective)
+- [Prerequisites: Setting Up Python or Anaconda](#prerequisites-setting-up-python-or-anaconda)
+   * [Option 1: Installing Python](#option-1-installing-python)
+   * [Option 2: Installing Anaconda (Recommended for Beginners)](#option-2-installing-anaconda-recommended-for-beginners)
+- [Installing Required Libraries](#installing-required-libraries)
+- [Steps to Push Code to GitHub (Just incase if you are new to GitHub)](#steps-to-push-code-to-github-just-incase-if-you-are-new-to-github)
+   * [**Steps to Complete the Assignment**](#steps-to-complete-the-assignment)
+   * [**Template Code**](#template-code)
+   * [**Submission Instructions**](#submission-instructions)
+   * [**Evaluation Criteria**](#evaluation-criteria)
+   * [**Bonus**](#bonus)
+
+<!-- TOC end -->
 
 ---
 
+<!-- TOC --><a name="objective"></a>
 #### **Objective**
 The goal of this assignment is to build a machine learning model to classify handwritten digits using the **digits dataset** from scikit-learn. This will help you apply the concepts learned in the session and get hands-on experience with data preprocessing, model training, and evaluation.
 
 ---
 
+<!-- TOC --><a name="prerequisites-setting-up-python-or-anaconda"></a>
 ## Prerequisites: Setting Up Python or Anaconda
 
+<!-- TOC --><a name="option-1-installing-python"></a>
 ### Option 1: Installing Python
 
 1. **Download Python**  
@@ -42,6 +60,7 @@ The goal of this assignment is to build a machine learning model to classify han
 
 ---
 
+<!-- TOC --><a name="option-2-installing-anaconda-recommended-for-beginners"></a>
 ### Option 2: Installing Anaconda (Recommended for Beginners)
 
 1. **Download Anaconda**  
@@ -71,6 +90,7 @@ The goal of this assignment is to build a machine learning model to classify han
 
 ---
 
+<!-- TOC --><a name="installing-required-libraries"></a>
 ## Installing Required Libraries
 
 Once Python or Anaconda is installed, install the necessary libraries:
@@ -87,6 +107,7 @@ conda install scikit-learn matplotlib pandas jupyter
 
 ---
 
+<!-- TOC --><a name="steps-to-push-code-to-github-just-incase-if-you-are-new-to-github"></a>
 ## Steps to Push Code to GitHub (Just incase if you are new to GitHub)
 
 1. **Initialize a Git Repository**:
@@ -125,6 +146,7 @@ conda install scikit-learn matplotlib pandas jupyter
 
 ---
 
+<!-- TOC --><a name="steps-to-complete-the-assignment"></a>
 #### **Steps to Complete the Assignment**
 
 1. **Understand the Digits Dataset**
@@ -158,6 +180,7 @@ conda install scikit-learn matplotlib pandas jupyter
 
 ---
 
+<!-- TOC --><a name="template-code"></a>
 #### **Template Code**
 
 Here’s a starting point for your assignment:
@@ -204,6 +227,7 @@ plt.show()
 
 ---
 
+<!-- TOC --><a name="submission-instructions"></a>
 #### **Submission Instructions**
 
 1. **Create a GitHub Repository**
@@ -223,6 +247,7 @@ plt.show()
 
 ---
 
+<!-- TOC --><a name="evaluation-criteria"></a>
 #### **Evaluation Criteria**
 - Completeness: Have you followed all steps mentioned?
 - Code Quality: Is the code readable, commented, and functional?
@@ -231,6 +256,7 @@ plt.show()
 
 ---
 
+<!-- TOC --><a name="bonus"></a>
 #### **Bonus**
 - Experiment with different models (e.g., Support Vector Machines, Logistic Regression).
 - Tune hyperparameters to improve accuracy.
